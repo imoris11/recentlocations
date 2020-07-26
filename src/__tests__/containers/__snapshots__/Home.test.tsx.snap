@@ -1,0 +1,200 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home should match snapshot 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "marginTop": 30,
+        "paddingHorizontal": 20,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "marginVertical": 20,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "fontSize": 18,
+            "fontWeight": "700",
+          }
+        }
+      >
+        Location Manager
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "marginVertical": 10,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "grey",
+            "fontWeight": "600",
+          }
+        }
+      >
+        Current Location
+      </Text>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "marginVertical": 15,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#ee6723",
+              "borderRadius": 20,
+              "height": 40,
+              "justifyContent": "center",
+              "width": 40,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#FFF",
+                "fontWeight": "800",
+              }
+            }
+          />
+        </View>
+        <View
+          style={
+            Object {
+              "marginLeft": 10,
+              "marginRight": 40,
+            }
+          }
+        >
+          <Text
+            numberOfLines={1}
+            style={
+              Object {
+                "fontSize": 16,
+                "fontWeight": "500",
+              }
+            }
+          >
+            Enable Location Services
+          </Text>
+          <Text
+            style={
+              Object {
+                "color": "grey",
+                "marginTop": 2,
+              }
+            }
+          >
+            
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "flex": 1,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "grey",
+            "fontWeight": "600",
+          }
+        }
+      >
+        Previous Locations
+      </Text>
+      <RCTScrollView
+        data={Array []}
+        disableVirtualization={false}
+        getItem={[Function]}
+        getItemCount={[Function]}
+        horizontal={false}
+        initialNumToRender={10}
+        keyExtractor={[Function]}
+        maxToRenderPerBatch={10}
+        onContentSizeChange={[Function]}
+        onEndReachedThreshold={2}
+        onLayout={[Function]}
+        onMomentumScrollEnd={[Function]}
+        onScroll={[Function]}
+        onScrollBeginDrag={[Function]}
+        onScrollEndDrag={[Function]}
+        removeClippedSubviews={false}
+        renderItem={[Function]}
+        scrollEventThrottle={50}
+        stickyHeaderIndices={Array []}
+        updateCellsBatchingPeriod={50}
+        viewabilityConfigCallbackPairs={Array []}
+        windowSize={21}
+      >
+        <View />
+      </RCTScrollView>
+    </View>
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#0e64ef",
+          "borderRadius": 3,
+          "bottom": 20,
+          "justifyContent": "center",
+          "left": 20,
+          "marginHorizontal": 20,
+          "opacity": 1,
+          "padding": 15,
+          "position": "absolute",
+          "right": 20,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#FFF",
+            "fontWeight": "500",
+          }
+        }
+      >
+        Clear All
+      </Text>
+    </View>
+  </View>
+</View>
+`;
